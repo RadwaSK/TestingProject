@@ -1,3 +1,9 @@
+**/Debug/
+packages/
+**/*.vcxproj.**
+**/*.vcxproj
+**/*.config
+
 # Prerequisites
 *.d
 
