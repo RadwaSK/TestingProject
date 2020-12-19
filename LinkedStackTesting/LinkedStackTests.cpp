@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "LinkedStack.h"
 
-TEST(STACK, CONSTRUCTOR_AND_IsEQUAL) {
+TEST(STACK, CONSTRUCTOR_AND_IsEmpty) {
 	LinkedStack s = LinkedStack();
 	EXPECT_TRUE(s.isEmpty());
 }

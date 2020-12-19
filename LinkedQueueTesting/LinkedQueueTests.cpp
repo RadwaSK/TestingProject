@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "LinkedQueue.h"
 
-TEST(QUEUE, CONSTRUCTOR_AND_IsEQUAL) {
+TEST(QUEUE, CONSTRUCTOR_AND_IsEmpty) {
 	LinkedQueue q = LinkedQueue();
 	EXPECT_TRUE(q.isEmpty());
 }
