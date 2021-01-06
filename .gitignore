@@ -4,6 +4,7 @@ packages/
 **/*.vcxproj
 **/*.config
 **/v15/
+~*
 
 # Prerequisites
 *.d

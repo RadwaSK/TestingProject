@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Graph.h"
 
+
 TEST(GRAPH, EMPTY_CONSTRUCTOR_CHECKS_EMPTY) {
 	Graph g = Graph();
 	EXPECT_TRUE(g.isEmpty());
